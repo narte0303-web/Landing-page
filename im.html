@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #0078ff;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, #0078ff, #00c6ff);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+    }
+
+    .hero button {
+      padding: 0.9rem 2rem;
+      background: white;
+      color: #0078ff;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #f0f0f0;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .feature {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .feature h3 {
+      color: #0078ff;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #0078ff;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    .product-img {
+      width: 250px;
+      height: auto;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    ⚡ Mugneto
+  </header>
+
+  <section class="hero">
+    <img src="1e4bc500-a081-46c8-9ace-2cbc35f3605b.jpg" alt="Mugneto" class="product-img">
+    <h1>Stay Hydrated. Stay Charged.</h1>
+    <p>The perfect combination of a stylish tumbler and a powerful powerbank — designed for people on the go. Drink smart, charge anywhere!</p>
+    <button>Order Now</button>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>🔋 Built-in Powerbank</h3>
+      <p>Charge your phone or devices anywhere with an integrated 10,000mAh battery.</p>
+    </div>
+    <div class="feature">
+      <h3>💧 Thermal Insulation</h3>
+      <p>Keeps your drink hot or cold for hours — perfect for any adventure.</p>
+    </div>
+    <div class="feature">
+      <h3>🌍 Eco-Friendly Design</h3>
+      <p>Reusable and sustainable materials to help protect the planet.</p>
+    </div>
+  </section>
+
+  <footer>
+  </footer>
+</body>
+</html>
